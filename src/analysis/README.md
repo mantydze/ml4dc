@@ -1,4 +1,4 @@
-**xgb_10train_90test.ipynb** - very old notebook. Trains xgboost on **sorted** data. Does 9 splits:
+**xgb_9splits.ipynb** - very old notebook. Trains xgboost on **sorted** data. Does 9 splits:
 * train:test 
 * 10:90, 
 * 20:80 

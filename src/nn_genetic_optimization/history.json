@@ -1,0 +1,2162 @@
+[
+    {
+        "score": {
+            "accuracy": 0.97292343784365,
+            "f1": 0.9860354910264167,
+            "auc": 0.9690449589864221
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9637105642579604,
+            "f1": 0.9811899122195903,
+            "auc": 0.9689685160642882
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9697710222135334,
+            "f1": 0.9843807214919756,
+            "auc": 0.9685944178886481
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9732166858092421,
+            "f1": 0.9861936914239645,
+            "auc": 0.9683870382364306
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9717993206422131,
+            "f1": 0.9854524367798705,
+            "auc": 0.9682089977598638
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9639305002321547,
+            "f1": 0.9813084112149533,
+            "auc": 0.9681120268892124
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9614378925246206,
+            "f1": 0.9799888404179771,
+            "auc": 0.9681055368993349
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9755626695339801,
+            "f1": 0.9874153683521683,
+            "auc": 0.9677316755846392
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 55,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9790083331296889,
+            "f1": 0.9892122018913184,
+            "auc": 0.9674763394865383
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.960655897949708,
+            "f1": 0.979578375910094,
+            "auc": 0.9674363889405773
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9792038317734171,
+            "f1": 0.9893134755691736,
+            "auc": 0.9673536139358621
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9848977297719997,
+            "f1": 0.9922639761660367,
+            "auc": 0.9670654331201332
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.961926639133941,
+            "f1": 0.9802514830401055,
+            "auc": 0.9669639461008078
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9650301801031256,
+            "f1": 0.9818954719702433,
+            "auc": 0.9668796393953187
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.966789667896679,
+            "f1": 0.9828194333826374,
+            "auc": 0.9665748309412905
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9526648908873194,
+            "f1": 0.975320753755399,
+            "auc": 0.9663823893193022
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9793015810952812,
+            "f1": 0.9893634388617497,
+            "auc": 0.9659785414090409
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9673028518364654,
+            "f1": 0.9830864135106437,
+            "auc": 0.9659504654917608
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9636128149360964,
+            "f1": 0.9811454547756829,
+            "auc": 0.9658875868063781
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9784218371985044,
+            "f1": 0.9889085679114696,
+            "auc": 0.9657326955394471
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9743163656802131,
+            "f1": 0.9867663909140131,
+            "auc": 0.9655850837988756
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9708462647540382,
+            "f1": 0.9849507398483722,
+            "auc": 0.9655748514060759
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9682803450551062,
+            "f1": 0.9836053150103572,
+            "auc": 0.9654201180464417
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9789838957992228,
+            "f1": 0.9892027620841181,
+            "auc": 0.9652200968742315
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.958285476894504,
+            "f1": 0.9783235342671017,
+            "auc": 0.9647817304290012
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9483150460643679,
+            "f1": 0.9729950586703099,
+            "auc": 0.9644234703551791
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9793504557562132,
+            "f1": 0.9893917519301989,
+            "auc": 0.9637983785320863
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9697465848830674,
+            "f1": 0.984376183144451,
+            "auc": 0.9636541302169254
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9652501160773197,
+            "f1": 0.9820045558086561,
+            "auc": 0.9636476718085072
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 55,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9628796950221158,
+            "f1": 0.9807577811276778,
+            "auc": 0.9635464374408558
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9576012316414555,
+            "f1": 0.9779578976789095,
+            "auc": 0.9634882643929026
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9835781139268346,
+            "f1": 0.9915800025059516,
+            "auc": 0.9634287807143903
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9847999804501356,
+            "f1": 0.9922154639433307,
+            "auc": 0.9632109633898881
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9912514356931649,
+            "f1": 0.9955362709159372,
+            "auc": 0.9630406761615692
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9119767356613964,
+            "f1": 0.9530965154435127,
+            "auc": 0.9629477792991619
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9628796950221158,
+            "f1": 0.9807568060605292,
+            "auc": 0.9628810160942908
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9639305002321547,
+            "f1": 0.9813197661173968,
+            "auc": 0.9626526031902074
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.969257838273747,
+            "f1": 0.9841181668981188,
+            "auc": 0.962532767343053
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9695999609002712,
+            "f1": 0.9842964982705951,
+            "auc": 0.96244437083859
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9745851763153394,
+            "f1": 0.9869106652906084,
+            "auc": 0.9623619748113861
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.969184526282349,
+            "f1": 0.9840796899263954,
+            "auc": 0.9622728361426304
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9818430634637472,
+            "f1": 0.9906846704529783,
+            "auc": 0.9622272798876509
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 55,
+                "activation": "elu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9641259988758828,
+            "f1": 0.9814186623462104,
+            "auc": 0.962213573534333
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9789594584687569,
+            "f1": 0.9891889855727578,
+            "auc": 0.961586871056818
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9740231177146208,
+            "f1": 0.9866142822963494,
+            "auc": 0.9614491127315349
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.968035971750446,
+            "f1": 0.9834769207448019,
+            "auc": 0.9614366064736685
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9818430634637472,
+            "f1": 0.990683736035008,
+            "auc": 0.9612429331747692
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9743408030106792,
+            "f1": 0.9867834755683106,
+            "auc": 0.9611435779039436
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.0
+            },
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.966765230566213,
+            "f1": 0.982808312686454,
+            "auc": 0.9605979608230734
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9648591187898634,
+            "f1": 0.981806219793011,
+            "auc": 0.9603635790231904
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9707240781017081,
+            "f1": 0.9848855693775075,
+            "auc": 0.9602529807528694
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9782996505461743,
+            "f1": 0.9888590570346021,
+            "auc": 0.9601044373592494
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9260770753402898,
+            "f1": 0.9609198372198179,
+            "auc": 0.959859902120215
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9513941497030864,
+            "f1": 0.9746453019235918,
+            "auc": 0.9597904702820362
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.96561667603431,
+            "f1": 0.9822031647250786,
+            "auc": 0.959555425271509
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.0
+            },
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.947239803523863,
+            "f1": 0.9724332537443021,
+            "auc": 0.9595287073569767
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9782996505461743,
+            "f1": 0.9888484239608188,
+            "auc": 0.9593401976266658
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9556462452041738,
+            "f1": 0.9769198489299203,
+            "auc": 0.9592858775167422
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9806700716013783,
+            "f1": 0.9900734140678923,
+            "auc": 0.9589312651014641
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 15,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9816720021504851,
+            "f1": 0.9906076241045936,
+            "auc": 0.9588413368962273
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9715060726766208,
+            "f1": 0.9853067190886637,
+            "auc": 0.9585441079924211
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9536912587668923,
+            "f1": 0.9758847558570138,
+            "auc": 0.9583537191652844
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9899318198479998,
+            "f1": 0.994858740141759,
+            "auc": 0.9579505818378564
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9746584883067374,
+            "f1": 0.9869531849577897,
+            "auc": 0.9567414856701655
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9722147552601353,
+            "f1": 0.9856831660727552,
+            "auc": 0.956678180635083
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9702597688228538,
+            "f1": 0.9846526350303291,
+            "auc": 0.9563449646584522
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9482417340729699,
+            "f1": 0.9729778004593008,
+            "auc": 0.9563278475075343
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.8916693140441339,
+            "f1": 0.9416672149483519,
+            "auc": 0.9559102300810369
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9589452848170866,
+            "f1": 0.9786921008573892,
+            "auc": 0.9558224336242997
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9745118643239412,
+            "f1": 0.986872411926848,
+            "auc": 0.9540389022941655
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9868527162092813,
+            "f1": 0.9932733183295823,
+            "auc": 0.9536097892164981
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9720681312773393,
+            "f1": 0.9855978226629537,
+            "auc": 0.9535624643998001
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9675960998020576,
+            "f1": 0.9832596894331523,
+            "auc": 0.951704021848306
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9764179761002908,
+            "f1": 0.9878761228720397,
+            "auc": 0.9505838116976968
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9736809950880966,
+            "f1": 0.9864509554781166,
+            "auc": 0.9497906433484331
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.0
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.943476454632096,
+            "f1": 0.9704178337106242,
+            "auc": 0.9476565262390764
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9840912978666211,
+            "f1": 0.9918595490865438,
+            "auc": 0.9446386335738453
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9735588084357665,
+            "f1": 0.986394728900513,
+            "auc": 0.9413247278909888
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "tanh",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9328706532098433,
+            "f1": 0.9646946932795251,
+            "auc": 0.937835750388736
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "tanh",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9848244177806017,
+            "f1": 0.9922478684759135,
+            "auc": 0.9142844298226499
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9897851958652036,
+            "f1": 0.9948033218956687,
+            "auc": 0.9042924982538612
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "relu",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9788372718164268,
+            "f1": 0.9891554798637548,
+            "auc": 0.9033414383990374
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 200,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9916179956501552,
+            "f1": 0.9957410879471547,
+            "auc": 0.8236379516669767
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9902983798049901,
+            "f1": 0.9950682617175368,
+            "auc": 0.8206173114147901
+        },
+        "layers": [
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 100,
+                "activation": "sigmoid",
+                "dropout": 0.5
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9917157449720193,
+            "f1": 0.9957928441118433,
+            "auc": 0.8045944580602642
+        },
+        "layers": [
+            {
+                "units": 25,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 50,
+                "activation": "elu",
+                "dropout": 0.5
+            },
+            {
+                "units": 25,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9917157449720193,
+            "f1": 0.9957932617732829,
+            "auc": 0.8026673258348843
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 200,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9906893770924464,
+            "f1": 0.9952748874530281,
+            "auc": 0.7985688893318716
+        },
+        "layers": [
+            {
+                "units": 50,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "tanh",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9910314997189708,
+            "f1": 0.9954462546374995,
+            "auc": 0.7902759139453239
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.25
+            },
+            {
+                "units": 50,
+                "activation": "tanh",
+                "dropout": 0.5
+            },
+            {
+                "units": 250,
+                "activation": "elu",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.9900784438307959,
+            "f1": 0.9949510023379594,
+            "auc": 0.789906189801791
+        },
+        "layers": [
+            {
+                "units": 200,
+                "activation": "relu",
+                "dropout": 0.0
+            },
+            {
+                "units": 100,
+                "activation": "elu",
+                "dropout": 0.25
+            },
+            {
+                "units": 250,
+                "activation": "sigmoid",
+                "dropout": 0.25
+            }
+        ]
+    },
+    {
+        "score": {
+            "accuracy": 0.991446934336893,
+            "f1": 0.9956576759881889,
+            "auc": 0.7857498171117694
+        },
+        "layers": [
+            {
+                "units": 250,
+                "activation": "relu",
+                "dropout": 0.5
+            },
+            {
+                "units": 200,
+                "activation": "elu",
+                "dropout": 0.0
+            },
+            {
+                "units": 25,
+                "activation": "relu",
+                "dropout": 0.0
+            }
+        ]
+    }
+]
